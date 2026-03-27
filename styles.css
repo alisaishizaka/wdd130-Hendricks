@@ -102,7 +102,7 @@ section h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     text-align: center;
-    padding: 15px 30px;
+    padding: 0 30px;
 }
 
 .photo1 {
@@ -121,7 +121,7 @@ section p {
     font-size: 25px;
     grid-column: 1/6;
     grid-row: 3/4;
-    padding: 40px 80px 80px 80px;
+    padding: 20px 40px 40px 40px;
 }
 
 
