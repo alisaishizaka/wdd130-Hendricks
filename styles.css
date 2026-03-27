@@ -87,6 +87,7 @@ nav {
 section {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: -5px auto;
     background-color: white;
     border-radius: 12px;
@@ -96,6 +97,7 @@ section {
 
 section h1 {
     grid-column: 2/5;
+    grid-row: 1/2;
     color: #264653;
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
@@ -105,17 +107,20 @@ section h1 {
 
 .photo1 {
     grid-column: 2/3;
+    grid-row: 2/3
     width: 100%;
 }
 
 .photo2 {
     grid-column: 4/5;
+    grid-row: 2/3;
     width: 100%;
 }
 
 section p {
     font-size: 25px;
     grid-column: 1/6;
+    grid-row: 3/4;
     padding: 40px 80px 80px 80px;
 }
 
